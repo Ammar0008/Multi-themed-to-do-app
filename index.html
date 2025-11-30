@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi-Themed Task App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">My Task Manager</h1>
+
+    <div class="theme-row">
+      <label for="themeSelector">Theme:</label>
+      <select id="themeSelector">
+        <option value="docker">Docker</option>
+        <option value="goku">Goku</option>
+        <option value="vegeta">Vegeta</option>
+        <option value="gohan">Gohan</option>
+        <option value="trunks">Trunks</option>
+        <option value="batman">Batman</option>
+        <option value="ironman">Ironman</option>
+      </select>
+    </div>
+
+    <div class="input-row">
+      <input id="taskInput" type="text" placeholder="Enter a task..." />
+      <button id="addTaskBtn">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

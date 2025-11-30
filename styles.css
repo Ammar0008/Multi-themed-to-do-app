@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.5s ease;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #0002;
+  background: white;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Section */
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Tasks */
+#taskList {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Themes */
+body.docker {
+  background: linear-gradient(120deg, #0db7ed, #384d54);
+}
+
+body.goku {
+  background: linear-gradient(120deg, #ff9800, #f44336);
+}
+
+body.vegeta {
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+}
+
+body.gohan {
+  background: linear-gradient(120deg, #8e24aa, #ce93d8);
+}
+
+body.trunks {
+  background: linear-gradient(120deg, #6a1b9a, #283593);
+}
+
+body.batman {
+  background: linear-gradient(120deg, #000000, #434343);
+}
+
+body.ironman {
+  background: linear-gradient(120deg, #b71c1c, #f57f17);
+}
